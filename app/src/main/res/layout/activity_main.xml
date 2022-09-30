@@ -47,9 +47,10 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="45sp"
             android:orientation="horizontal"
-            android:weightSum="6"
+            android:weightSum="5"
+
             >
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_DEC"
@@ -60,7 +61,7 @@
                 android:textSize="17sp"
                 android:textStyle="bold"
                 android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
+                android:fontFamily="@font/oswaldregular"
                 android:layout_weight="1"
                 >
 
@@ -75,7 +76,7 @@
                 android:textSize="17sp"
                 android:textStyle="bold"
                 android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
+                android:fontFamily="@font/oswaldregular"
                 android:layout_weight="1"
                 >
 
@@ -84,11 +85,11 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_BIN"
                 android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/black"
-                android:fontFamily="@font/oswald_regular"
+                android:fontFamily="@font/oswaldregular"
                 android:text="BIN"
                 android:textSize="17sp"
                 android:textStyle="bold">
@@ -104,210 +105,7 @@
                 android:textSize="17sp"
                 android:textStyle="bold"
                 android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
-                android:layout_weight="1"
-                >
-
-            </com.google.android.material.button.MaterialButton>
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_MS"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:text="MS"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
-                android:layout_weight="1"
-                >
-
-            </com.google.android.material.button.MaterialButton>
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_M"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:text="M+"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
-                android:layout_weight="1"
-                >
-
-            </com.google.android.material.button.MaterialButton>
-
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-
-        >
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="6"
-            >
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_hyp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:text="hyp"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
-                android:layout_weight="1"
-                >
-
-            </com.google.android.material.button.MaterialButton>
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_sin"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:text="sin"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
-                android:layout_weight="1"
-                >
-
-            </com.google.android.material.button.MaterialButton>
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_cos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:text="cos"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
-                android:layout_weight="1"
-                >
-
-            </com.google.android.material.button.MaterialButton>
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_tan"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:text="tan"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
-                android:layout_weight="1"
-                >
-
-            </com.google.android.material.button.MaterialButton>
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_ln"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:text="ln"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
-                android:layout_weight="1"
-                >
-
-            </com.google.android.material.button.MaterialButton>
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_log"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:text="log"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
-                android:layout_weight="1"
-                >
-
-            </com.google.android.material.button.MaterialButton>
-
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-
-        >
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="6"
-            >
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_cubic_root"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:text="∛"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
-                android:layout_weight="1"
-                >
-
-            </com.google.android.material.button.MaterialButton>
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_root"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:text="√"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
-                android:layout_weight="1"
-                >
-
-            </com.google.android.material.button.MaterialButton>
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_square"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/black"
-                android:text="x²"
-                android:textSize="17sp"
-                android:textStyle="bold"
-                android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
+                android:fontFamily="@font/oswaldregular"
                 android:layout_weight="1"
                 >
 
@@ -322,11 +120,217 @@
                 android:textSize="17sp"
                 android:textStyle="bold"
                 android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
+                android:fontFamily="@font/oswaldregular"
                 android:layout_weight="1"
                 >
 
             </com.google.android.material.button.MaterialButton>
+
+           <!-- <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_MS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="MS"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:fontFamily="@font/oswaldregular"
+                android:layout_weight="1"
+                >
+
+            </com.google.android.material.button.MaterialButton>-->
+
+           <!-- <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="M+"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:fontFamily="@font/oswaldregular"
+                android:layout_weight="1"
+                >
+
+            </com.google.android.material.button.MaterialButton>-->
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+
+            >
+           <!-- <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_hyp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="hyp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:fontFamily="@font/oswaldregular"
+                android:layout_weight="1"
+                >
+
+            </com.google.android.material.button.MaterialButton>-->
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_sin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="sin"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:fontFamily="@font/oswaldregular"
+                android:layout_weight="1"
+                >
+
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_cos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="cos"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:fontFamily="@font/oswaldregular"
+                android:layout_weight="1"
+                >
+
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_tan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="tan"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:fontFamily="@font/oswaldregular"
+                android:layout_weight="1"
+                >
+
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_ln"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="ln"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:fontFamily="@font/oswaldregular"
+                android:layout_weight="1"
+                >
+
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_log"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="log"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:fontFamily="@font/oswaldregular"
+                android:layout_weight="1"
+                >
+
+            </com.google.android.material.button.MaterialButton>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            >
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_cubic_root"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="∛"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:fontFamily="@font/oswaldregular"
+                android:layout_weight="1"
+                >
+
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_root"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="√"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:fontFamily="@font/oswaldregular"
+                android:layout_weight="1"
+                >
+
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_square"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="x²"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_margin="1dp"
+                android:fontFamily="@font/oswaldregular"
+                android:layout_weight="1"
+                >
+
+            </com.google.android.material.button.MaterialButton>
+
+
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_start_parenthesis"
@@ -337,7 +341,7 @@
                 android:textSize="17sp"
                 android:textStyle="bold"
                 android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
+                android:fontFamily="@font/oswaldregular"
                 android:layout_weight="1"
                 >
 
@@ -352,7 +356,7 @@
                 android:textSize="17sp"
                 android:textStyle="bold"
                 android:layout_margin="1dp"
-                android:fontFamily="@font/oswald_regular"
+                android:fontFamily="@font/oswaldregular"
                 android:layout_weight="1"
                 >
 
@@ -377,6 +381,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:layout_margin="2sp"
             android:weightSum="4"
             android:layout_weight="1"
             >
@@ -440,6 +445,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:layout_margin="2sp"
             android:weightSum="4"
             android:layout_weight="1"
             >
@@ -503,6 +509,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:layout_margin="2sp"
             android:weightSum="4"
             android:layout_weight="1"
             >
@@ -567,6 +574,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:layout_margin="2sp"
             android:weightSum="4"
             android:layout_weight="1"
             >
@@ -630,6 +638,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical"
+            android:layout_margin="2sp"
             android:weightSum="4"
             android:layout_weight="1"
             >
