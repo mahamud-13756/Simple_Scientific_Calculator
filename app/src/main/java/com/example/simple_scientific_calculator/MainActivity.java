@@ -7,6 +7,9 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.button.MaterialButton;
+import org.mozilla.javascript.Context;
+import org.mozilla.javascript.Scriptable;
+
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -125,6 +128,6 @@ MaterialButton b_ac, b_del, b_exp, b_start_parenthesis, b_end_parenthesis;
     }
 
     String getResult(String data){
-        return "Calculated";
+       // return "Calculated";
     }
 }
