@@ -125,9 +125,32 @@ MaterialButton b_ac, b_del, b_exp, b_start_parenthesis, b_end_parenthesis;
             dataToCalculate = dataToCalculate + buttonText; // it will concatinate the buttonText
         }
         ts.setText(dataToCalculate);
+
+        String finalResult = getResult(dataToCalculate);
+
+        if(!finalResult.equals("Err")){
+           tr.setText(finalResult);
+        }
+
     }
 
     String getResult(String data){
-       // return "Calculated";
+       // return "Calculated"; // https://www.youtube.com/watch?v=X3KQdwVlo1Q  17 min explanation.
+// https://github.com/easy-tuto/CalculatorAndroid/blob/main/app/src/main/java/easy/tuto/easycalculator/MainActivity.java
+        try{
+            Context context  = Context.enter();
+            context.setOptimizationLevel(-1);
+            Scriptable scriptable = context.initStandardObjects();
+            String finalResult =  context.evaluateString(scriptable,data,"Javascript",1,null).toString();
+            if(finalResult.endsWith(".0")){
+                finalResult = finalResult.replace(".0","");
+            }
+            return finalResult;
+        }catch (Exception e){
+            return "Err";
+        }
     }
+
+
+
 }
