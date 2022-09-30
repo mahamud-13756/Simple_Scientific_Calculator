@@ -92,11 +92,39 @@ MaterialButton b_ac, b_del, b_exp, b_start_parenthesis, b_end_parenthesis;
     }
 
 
+
+    // jetate tap korbo setai show korbe ai methoder maddhome yeeeee!
     @Override
     public void onClick(View view) {
         MaterialButton button = (MaterialButton) view;
         String buttonText = button.getText().toString();
+        String dataToCalculate = ts.getText().toString();
 
-        ts.setText(buttonText);
+        if(buttonText.equals("AC")){
+            ts.setText("");
+            tr.setText("0");
+            return;
+        }
+
+
+
+        // jodi amra = tap kori tobe nicher tr theke ts a data chole jabe.
+
+        if(buttonText.equals("=")){
+            ts.setText(tr.getText());
+            return;
+        }
+
+        // jodi DEL tap kori tobe last character remove hobe....
+        if(buttonText.equals("DEL")){
+           dataToCalculate = dataToCalculate.substring(0, dataToCalculate.length() - 1);
+        }else{
+            dataToCalculate = dataToCalculate + buttonText; // it will concatinate the buttonText
+        }
+        ts.setText(dataToCalculate);
+    }
+
+    String getResult(String data){
+        return "Calculated";
     }
 }
