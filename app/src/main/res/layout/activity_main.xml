@@ -13,18 +13,32 @@
     >
 
     <TextView
+        android:id="@+id/tv_solution"
         android:layout_width="match_parent"
-        android:layout_height="55sp"
+        android:layout_height="65sp"
         android:layout_marginTop="35sp"
+        android:text="0"
+        android:textSize="32sp"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10sp"
+
+
 
 
         >
     </TextView>
 
     <TextView
+        android:id="@+id/tv_result"
         android:layout_width="match_parent"
-        android:layout_height="55sp"
+        android:layout_height="65sp"
         android:layout_marginBottom="30sp"
+        android:text="0"
+        android:textSize="50sp"
+        android:gravity="right"
+        android:textColor="@color/black"
+
 
 
         >
@@ -400,7 +414,7 @@
             </com.google.android.material.button.MaterialButton>
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_four"
+                android:id="@+id/btn_4"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:backgroundTint="@color/black"
@@ -426,7 +440,7 @@
             </com.google.android.material.button.MaterialButton>
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_zero"
+                android:id="@+id/btn_0"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:backgroundTint="@color/black"
@@ -554,7 +568,7 @@
             </com.google.android.material.button.MaterialButton>
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_0"
+                android:id="@+id/btn_dot"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:backgroundTint="@color/black"
@@ -657,7 +671,7 @@
             </com.google.android.material.button.MaterialButton>
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_4"
+                android:id="@+id/btn_multiply"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:backgroundTint="#009688"
