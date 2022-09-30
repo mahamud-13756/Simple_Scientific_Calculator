@@ -94,6 +94,9 @@ MaterialButton b_ac, b_del, b_exp, b_start_parenthesis, b_end_parenthesis;
 
     @Override
     public void onClick(View view) {
+        MaterialButton button = (MaterialButton) view;
+        String buttonText = button.getText().toString();
 
+        ts.setText(buttonText);
     }
 }
