@@ -111,6 +111,8 @@ MaterialButton b_ac, b_del, b_exp, b_start_parenthesis, b_end_parenthesis;
 
 
 
+
+
         // jodi amra = tap kori tobe nicher tr theke ts a data chole jabe.
 
         if(buttonText.equals("=")){
