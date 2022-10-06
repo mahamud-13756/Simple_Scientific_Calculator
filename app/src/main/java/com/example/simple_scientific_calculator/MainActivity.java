@@ -91,7 +91,13 @@ MaterialButton b_ac, b_del, b_exp, b_start_parenthesis, b_end_parenthesis;
 
     void assignId(MaterialButton btn, int id){
         btn = findViewById(id);
-        btn.setOnClickListener(this);
+
+        if(btn.equals("+") || btn.equals("-") || btn.equals("*") || btn.equals("/")){
+
+        }else{
+            btn.setOnClickListener(this);
+        }
+
     }
 
 
@@ -110,6 +116,27 @@ MaterialButton b_ac, b_del, b_exp, b_start_parenthesis, b_end_parenthesis;
         }
 
 
+        // jokhn operator use korbo tkhn eta chk korbe code
+        if(buttonText.equals("+") || buttonText.equals("-") || buttonText.equals("*") || buttonText.equals("/")){
+
+            if(buttonText.isEmpty()){
+
+                ts.setText("");
+
+            }
+            /*else{
+                final char getLastCharacter = buttonText.charAt(dataToCalculate.length()-1);
+
+                if(getLastCharacter=='+' || getLastCharacter=='-' || getLastCharacter=='*' || getLastCharacter=='/'){
+                    ts.setText(buttonText.substring(0,buttonText.length()-1)+"+");
+                }
+                else{
+                    ts.setText(buttonText+"+");
+                }
+            }*/
+
+
+        }
 
 
 
@@ -126,12 +153,15 @@ MaterialButton b_ac, b_del, b_exp, b_start_parenthesis, b_end_parenthesis;
         }else{
             dataToCalculate = dataToCalculate + buttonText; // it will concatinate the buttonText
         }
+
         ts.setText(dataToCalculate);
 
         String finalResult = getResult(dataToCalculate);
 
         if(!finalResult.equals("Err")){
            tr.setText(finalResult);
+        }else{
+            tr.setText("Err");
         }
 
     }
